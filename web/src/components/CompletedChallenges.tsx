@@ -1,6 +1,6 @@
 import styles from '../styles/components/CompletedChallenges.module.css'
 
-export function CompletedChallenges() {
+ function CompletedChallenges() {
   return (
     <div className={styles.completedChallengesContainer}>
       <span>Desafios completos</span>
@@ -8,3 +8,4 @@ export function CompletedChallenges() {
     </div>
   )
 }
+export default CompletedChallenges
