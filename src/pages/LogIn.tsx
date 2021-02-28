@@ -7,6 +7,8 @@ import Input from '../components/Input'
 import { ContainerLogIn } from './../styles/pages/StyledLogIn'
 
 function LogIn() {
+  const [user, setUser] = useState('')
+
 
   return (
     <ContainerLogIn>
@@ -20,7 +22,7 @@ function LogIn() {
           <FaGithub />
           Faça login com o seu Github para começar
         </p>
-        <Form className="authgit" onSubmit={handleLogInGitHub}>
+        <Form className="authgit" onSubmit={() => {}}>
           <Input
             name="user"
             type="text"
