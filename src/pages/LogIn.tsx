@@ -7,11 +7,7 @@ import Input from '../components/Input'
 import { ContainerLogIn } from './../styles/pages/StyledLogIn'
 
 function LogIn() {
-  const [user, setUser] = useState('')
 
-  function handleLogInGitHub() {
-    axios.post('/api/authgithub', { user })
-  }
   return (
     <ContainerLogIn>
       <div className="banner">
